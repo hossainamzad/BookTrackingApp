@@ -51,3 +51,4 @@ class BooksApp extends React.Component {
 }
 
 export default BooksApp
+{/*Credit to Maeva-- for a wonderful walkthrough. I folowed her code.*/}
