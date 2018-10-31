@@ -67,7 +67,7 @@ class SearchPage extends  Component {
             <ol className="books-grid">
               {
                 this.state.searchBooks.map(searchBook => {
-                  let shelf = " none";
+                  let shelf = "none";
                   this.props.books.map(book => {
                     book.id === searchBook.id ?
                     shelf = book.shelf :
