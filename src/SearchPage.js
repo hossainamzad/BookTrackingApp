@@ -63,7 +63,10 @@ class SearchPage extends  Component {
               {
                 this.state.searchBooks.map(searchBook => (
                   <li key={searchBook.id}>
-                    <Book book={searchBook} />
+                    <Book
+                      book={searchBook}
+                      moveShelf={this.props.moveShelf}
+                    />
                   </li>
                 ))
               }
